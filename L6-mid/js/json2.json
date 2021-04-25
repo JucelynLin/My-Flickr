@@ -1,0 +1,29 @@
+// 第四張照片
+img =  {};
+img.ID = "4";
+img.imgurl = "//live.staticflickr.com/1666/26570435101_68f2e32735_n.jpg";
+img.title = "Spring Beauty";
+img.author = "by Sharon (&Wayne)";
+img.likeNum = "62";
+img.commentNum = "34";
+ary.push(img);
+
+// 第五張照片
+img =  {};
+img.ID = "5";
+img.imgurl = "//live.staticflickr.com/1463/26496109066_d3ca920801.jpg";
+img.title = "Dining at Fresco";
+img.author = "by Sharon (&Wayne)";
+img.likeNum = "69";
+img.commentNum = "34";
+ary.push(img);
+
+// 第六張照片
+img =  {};
+img.ID = "6";
+img.imgurl = "//live.staticflickr.com/1455/26065202266_459cca4997_c.jpg";
+img.title = "A Little Downtime";
+img.author = "by Sharon (&Wayne)";
+img.likeNum = "55";
+img.commentNum = "32";
+ary.push(img);

@@ -1,0 +1,29 @@
+// 第十三張照片
+img =  {};
+img.ID = "13";
+img.imgurl = "//live.staticflickr.com/1599/23708296893_26d7a7acf1.jpg";
+img.title = "Little Fuzz Face";
+img.author = "by Sharon (&Wayne)";
+img.likeNum = "62";
+img.commentNum = "36";
+ary.push(img);
+
+// 第十四張照片
+img =  {};
+img.ID = "14";
+img.imgurl = "//live.staticflickr.com/5836/23784821361_5d89132ebc_w.jpg";
+img.title = "Peace and Joy -  EXPLORED";
+img.author = "by Sharon (&Wayne)";
+img.likeNum = "215";
+img.commentNum = "42";
+ary.push(img);
+
+// 第十五張照片
+img =  {};
+img.ID = "15";
+img.imgurl = "//live.staticflickr.com/697/23284835829_f1767f38e3_w.jpg";
+img.title = "Visions of Sugar Plums";
+img.author = "by Sharon (&Wayne)";
+img.likeNum = "51";
+img.commentNum = "28";
+ary.push(img);

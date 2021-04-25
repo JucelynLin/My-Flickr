@@ -1,0 +1,10 @@
+let album = {};	//let album = new Object();
+album.imgurl = "//live.staticflickr.com/7601/26782193291_d5eb93b0af_k.jpg";
+album.name = "Home in the Woods";
+album.info = "Mysterious World";
+album.photoNum = "301 photos";
+album.videoNum = "0";
+album.viewNum = "150 views";
+album.author = "By: Sharon (&Wayne) ";
+album.authorImg = "//farm66.staticflickr.com/65535/buddyicons/68534577@N05_l.jpg";
+album.images = [];	//album.images= new Array();
