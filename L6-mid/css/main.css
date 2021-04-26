@@ -60,9 +60,97 @@ aside .nav-item .active{
 	border-bottom: 3px solid #0090DC;
 }
 
-section{
+/*section .footer{
 	min-height: 1000px;
-}
-.footer {
 	display: black;
+}
+*/
+footer{
+	height: 100px;
+	background-color: black;
+	color: white;
+}
+.footer-top ul{
+	padding: 0;
+	list-style-type: none;
+}
+.footer-top{
+	padding-top: 20px;
+}
+.footer-bottom ul{
+	padding: 0;
+	list-style-type: none;
+	margin: 0;
+}
+.btn1{
+	margin-right: 50px;
+}
+.socialicon{
+	justify-content: flex-end;
+	padding: 0;
+	margin: 0;
+}
+.fa-tumblr{
+	font-size: 24px;
+	padding-right: 20px;
+}
+.fa-facebook{
+	font-size: 24px;
+	padding-right: 20px;
+}
+.fa-twitter{
+	font-size: 24px;
+	padding-right: 20px;
+}
+
+.img1{
+	width: 250px;
+	height: 270px;
+	background-position:right bottom;
+	background-size: cover;
+	background-image: url(../images/pexels-adrianna-calvo-57627.jpg);
+	margin-right: 2px;
+	margin-top: 30px;
+	padding: 0;
+
+}
+.img2{
+	width: 250px;
+	height: 270px;
+	background-position:right bottom;
+	background-size: cover;
+	background-image: url(../images/pexels-pixabay-160846.jpg);
+	margin-right: 2px;
+	margin-top: 30px;
+	padding: 0;
+}
+.img3{
+	width: 250px;
+	height: 270px;
+	background-position:right bottom;
+	background-size: cover;
+	background-image: url(../images/pexels-henda-watani-320014.jpg);
+	margin-right: 2px;
+	margin-top: 30px;
+	padding: 0;
+}
+.img4{
+	width: 250px;
+	height: 270px;
+	background-position:right bottom;
+	background-size: cover;
+	background-image: url(../images/pexels-valeria-boltneva-1805164.jpg);
+	margin-right: 2px;
+	margin-top: 30px;
+	padding: 0;
+}
+.img5{
+	width: 250px;
+	height: 270px;
+	background-position:right bottom;
+	background-size: cover;
+	background-image: url(../images/pexels-min-an-1444492.jpg);
+	margin-right: 2px;
+	margin-top: 30px;
+	padding: 0;
 }
