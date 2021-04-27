@@ -40,12 +40,17 @@ img {
       border-width: 0 15px 20px 15px;
       border-color: transparent;
   }
+
+  .back-to-albums-text {
+    color: black;
+  }
   
   header{
       height: 250px;
       /* background-image: url(https://farm66.staticflickr.com/65535/buddyicons/68534577@N05_l.jpg); */
       background-size: cover;
       background-position: 0px -200px;
+      background-repeat: no-repeat;
   }
   header .rounded-circle{
       width: 90px;
@@ -57,7 +62,47 @@ img {
       height: -100px;
       padding-bottom: -3px;	
   }
- 
+
+  section .image-holder {
+    background-image: url(../images/pexels-septimiu-lupea-669015.jpg); 
+    height: 350px;
+    background-size: cover;
+  }
+  /* 只要不是3的倍數 就會吃到這個css */
+  section .photo-space:not(:nth-child(3n)) {
+  padding-right: 10px !important;
+  }
+  section .photo-layer {
+    position: relative;
+    top: 0px;
+    transition: 0.5s all;
+    z-index: 100;
+  }
+  section .photo-layer p {
+    color: white;
+  }
+  section .rating-width {
+    margin-left: 15px;
+    text-align: right;
+  }
+  section .custom-icon {
+    color: white;
+    font-size: 20px;
+  }
+  section .rating-text {
+    color: white;
+    font-size: 20px;
+  }
+  section .author {
+    font-size: 12px;
+    color: white;
+  }
+
+  section .photo-layer:hover {
+    /* margin-top: -50px !important; */
+    top: -50px;
+  }
+  
   footer{
       height: 100px;
       background-color: black;

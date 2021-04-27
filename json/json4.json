@@ -1,26 +1,39 @@
-[
-  {
-    "ID": "1",
-    "imgUrl": "//live.staticflickr.com/1487/25136015012_6463f5bb18.jpg",
+{
+  "album": {
     "title": "Baby-O",
-    "author": "by Sharon (&Wayne)",
-    "likeNum": "69",
-    "commentNum": "31"
+    "description": "First photo age 3, then up to 11 years.",
+    "photoNum": "3",
+    "videoNum": "10",
+    "viewNum": "2M",
+    "author": "Sharon (&Wayne)",
+    "imgUrl": "//live.staticflickr.com/1487/25136015012_6463f5bb18.jpg"
   },
-  {
-    "ID": "2",
-    "imgUrl": "//live.staticflickr.com/1528/24476574104_d48a46d19e.jpg",
-    "title": "My Winter Joy",
-    "author": "by Sharon (&Wayne)",
-    "likeNum": "62",
-    "commentNum": "28"
-  },
-  {
-    "ID": "3",
-    "imgUrl": "//live.staticflickr.com/1447/24459121345_5af171d47a.jpg",
-    "title": "Hosta Carousel",
-    "author": "by Sharon (&Wayne)",
-    "likeNum": "67",
-    "commentNum": "38"
-  }
-]
+  "photos":[
+    {
+      "ID": "1",
+      "imgUrl": "//live.staticflickr.com/1487/25136015012_6463f5bb18.jpg",
+      "title": "Baby-O",
+      "author": "by Sharon (&Wayne)",
+      "likeNum": "69",
+      "commentNum": "31"
+    },
+    {
+      "ID": "2",
+      "imgUrl": "//live.staticflickr.com/1528/24476574104_d48a46d19e.jpg",
+      "title": "My Winter Joy",
+      "author": "by Sharon (&Wayne)",
+      "likeNum": "62",
+      "commentNum": "28"
+    },
+    {
+      "ID": "3",
+      "imgUrl": "//live.staticflickr.com/1447/24459121345_5af171d47a.jpg",
+      "title": "Hosta Carousel",
+      "author": "by Sharon (&Wayne)",
+      "likeNum": "67",
+      "commentNum": "38"
+    }
+  ]
+  
+}
+

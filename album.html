@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
-  integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/mainAlbum.css">
   <title>Document</title>
@@ -84,115 +84,50 @@
     </div>
   </nav>
 
-  <div class="view album">
-    <i class="fa fa-arrow-left"></i>
-    <span class="back-to-albums-text">Back to albums list</span>
-  </div>
-
-  <header class="album-container container-fluid">
+  <div class="container">
+    <div class="view album py-3">
+      <i class="fa fa-arrow-left"></i>
+      <a class="back-to-albums-text" href="/"> <span>Back to albums list</span></a>
+    </div>
+    <header id="banner" class="album-container container-fluid">
       <div class="album-header"></div>
-        <h1 class="album-title text-white text-center font-weight-bold">
+      <!-- text start -->
+      <div class="d-flex flex-column justify-content-center">
+        <!-- 代表dflex裡面的 div都會跑來中間 -->
+        <h2 id="albumTitle" class="album-title font-weight-light text-white text-center font-weight-bold">
           Old Sam Peabody
-        </h1>
-        <h3 class="album-2ndtitle text-white text-center font-weight-bold font-italic">
+        </h2>
+        <h3 id="albumDes" class="album-2ndtitle text-white text-center font-weight-bold font-italic">
           First photo age 3, then up to 11 years.
         </h3>
         <div class="stats-container text-white text-center font-weight-bold">
-          <span class="photo-counts">5 photos</span>
+          <span id="albumPhotoNum" class="photo-counts">5 </span>photos
           <span class="album-stats-separator">·</span>
-          <span class="video-counts">0 video</span>
+          <span id="albumVideoNum" class="video-counts">0 </span>video
           <span class="album-stats-separator">·</span>
-          <span class="view-counts">2M views</span>
+          <span id="albumViewNum" class="view-counts">2M </span>views
         </div>
-        <div class="btn-share">
-          <i class="fa fa-share"></i>
+        <div class="btn-share text-center" style="margin-left: -40px">
+          <span><i style="color: white" class="fa fa-share"></i></span>
         </div>
-        <div class="col-1 mx-auto d-block">
+        <!-- <div class="col-1 mx-auto d-block">
           <img id="avatar" class="rounded-circle" src="https://randomuser.me/api/portraits/lego/3.jpg" alt="...">
-        </div>
-        <div class="name text-white">
-        <span id="username" class="mr-5 text-name text-center">Bob</span>
-        </div>
-    </div>
-  </header>  
-
-  <section>
-          
-    <div class="container">
-      <div id="albumSection" class="row" data-toggle="modal" data-target="#exampleModal">
-        <div class="img img1" data-target="#carouselExample" data-slide-to="0"></div>
-        <div class="col-12 col-md-4 col-lg-3 mb-4">
-          <div class="box1">
-            <div class="img img1">
-            <!-- <div class="info">
-              <div class="line line1">East Spring</div>
-              <div class="line line2">3 張照片，1000 次檢視</div>
-              <div class="line line3">
-                <i class="fa fa-star"></i>
-                <i class="fa fa-comment"></i>
-              </div>
-            </div> -->
-          </div>
-        </div>
-
-        <div class="col-12 col-md-4 col-lg-3 mb-4">
-          <div class="box1">
-            <div class="img img2"></div>
-            <!-- <div class="info">
-              <div class="line line1">South Spring</div>
-              <div class="line line2">3 張照片，1000 次檢視</div>
-              <div class="line line3">
-                <i class="fa fa-star"></i>
-                <i class="fa fa-comment"></i>
-              </div>
-            </div> -->
-          </div>
-        </div>
-
-        <div class="col-12 col-md-4 col-lg-3 mb-4">
-          <div class="box1">
-            <div class="img img3"></div>
-            <!-- <div class="info">
-              <div class="line line1">West Spring</div>
-              <div class="line line2">3 張照片，1000 次檢視</div>
-              <div class="line line3">
-                <i class="fa fa-star"></i>
-                <i class="fa fa-comment"></i>
-              </div>
-            </div> -->
-          </div>
-        </div>
-
-        <div class="col-12 col-md-4 col-lg-3 mb-4">
-          <div class="box1">
-            <div class="img img4"></div>
-            <!-- <div class="info">
-              <div class="line line1">North Spring</div>
-              <div class="line line2">3 張照片，1000 次檢視</div>
-              <div class="line line3">
-                <i class="fa fa-star"></i>
-                <i class="fa fa-comment"></i>
-              </div>
-            </div> -->
-          </div>
-        </div>
-
-        <div class="col-12 col-md-4 col-lg-3 mb-4">
-          <div class="box1">
-            <div class="img img5"></div>
-            <!-- <div class="info">
-              <div class="line line1">East Summer</div>
-              <div class="line line2">3 張照片，1000 次檢視</div>
-              <div class="line line3">
-                <i class="fa fa-star"></i>
-                <i class="fa fa-comment"></i>
-              </div>
-            </div> -->
-          </div>
+        </div> -->
+        <div class="name text-white text-center font-weight-bold">
+          By:
+          <span id="author" class="mr-5 text-name text-center font-weight-bold">Bob</span>
         </div>
       </div>
-    </div>
-  </section>
+
+      <!-- text end -->
+    </header>
+
+    <section class="container">
+      <div id="photoSection" class="row mt-2">
+
+      </div>
+    </section>
+  </div>
 
   <footer>
     <div class="container">
@@ -233,7 +168,6 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
     integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
     crossorigin="anonymous"></script>
-  <script src="js/main.js"></script>
   <script src="js/album.js"></script>
 </body>
 

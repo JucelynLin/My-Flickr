@@ -1,26 +1,37 @@
-[
-  {
-    "ID": "1",
-    "imgUrl": "//live.staticflickr.com/7601/26782193291_9c9315f4b4_b.jpg",
+{
+  "album": {
     "title": "Old Sam Peabody",
-    "author": "by Sharon (&Wayne)",
-    "likeNum": "68",
-    "commentNum": "32"
+    "description": "First photo age 3, then up to 11 years.",
+    "photoNum": "3",
+    "videoNum": "10",
+    "viewNum": "2M",
+    "author": "Sharon (&Wayne)",
+    "imgUrl": "//live.staticflickr.com/7601/26782193291_9c9315f4b4_b.jpg"
   },
-  {
-    "ID": "2",
-    "imgUrl": "//live.staticflickr.com/7669/26697551792_f7bbc1fc0d_b.jpg",
-    "title": "3 by 3",
-    "author": "by Sharon (&Wayne)",
-    "likeNum": "56",
-    "commentNum": "32"
-  },
-  {
-    "ID": "3",
-    "imgUrl": "//live.staticflickr.com/1535/26088156423_e328004dc3_b.jpg",
-    "title": "Rude Awakening - EXPLORED",
-    "author": "by Sharon (&Wayne)",
-    "likeNum": "522",
-    "commentNum": "67"
-  }
-]
+  "photos": [
+    {
+      "ID": "1",
+      "imgUrl": "//live.staticflickr.com/7601/26782193291_9c9315f4b4_b.jpg",
+      "title": "Old Sam Peabody",
+      "author": "by Sharon (&Wayne)",
+      "likeNum": "68",
+      "commentNum": "32"
+    },
+    {
+      "ID": "2",
+      "imgUrl": "//live.staticflickr.com/7669/26697551792_f7bbc1fc0d_b.jpg",
+      "title": "3 by 3",
+      "author": "by Sharon (&Wayne)",
+      "likeNum": "56",
+      "commentNum": "32"
+    },
+    {
+      "ID": "3",
+      "imgUrl": "//live.staticflickr.com/1535/26088156423_e328004dc3_b.jpg",
+      "title": "Rude Awakening - EXPLORED",
+      "author": "by Sharon (&Wayne)",
+      "likeNum": "522",
+      "commentNum": "67"
+    }
+  ]
+}

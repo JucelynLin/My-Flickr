@@ -21,7 +21,6 @@ $(function () {
        </div>`
   );
   }
-
   //get post put delete
   // 127.0.0.1 local hostname
   //live server -> localhostname+5500 port 

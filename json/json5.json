@@ -1,27 +1,37 @@
-[
-  {
-    "ID": "1",
-    "imgUrl": "//live.staticflickr.com/1599/23708296893_26d7a7acf1.jpg",
-    "title":  "Little Fuzz Face",
-    "author": "by Sharon (&Wayne)",
-    "likeNum": "62",
-    "commentNum": "36"
+{
+  "album": {
+    "title": "Little Fuzz Face",
+    "description": "First photo age 3, then up to 11 years.",
+    "photoNum": "3",
+    "videoNum": "10",
+    "viewNum": "2M",
+    "author": "Sharon (&Wayne)",
+    "imgUrl": "//live.staticflickr.com/1599/23708296893_26d7a7acf1.jpg"
   },
-  {
-    "ID": "2",
-    "imgUrl": "//live.staticflickr.com/5836/23784821361_5d89132ebc_w.jpg",
-    "title":  "Peace and Joy -  EXPLORED",
-    "author": "by Sharon (&Wayne)",
-    "likeNum": "215",
-    "commentNum": "42"
-  },
-  {
-    "ID": "3",
-    "imgUrl": "//live.staticflickr.com/697/23284835829_f1767f38e3_w.jpg",
-    "title": "Visions of Sugar Plums",
-    "author": "by Sharon (&Wayne)",
-    "likeNum": "51",
-    "commentNum": "28"
-  }
-]
-
+  "photos": [
+    {
+      "ID": "1",
+      "imgUrl": "//live.staticflickr.com/1599/23708296893_26d7a7acf1.jpg",
+      "title":  "Little Fuzz Face",
+      "author": "by Sharon (&Wayne)",
+      "likeNum": "62",
+      "commentNum": "36"
+    },
+    {
+      "ID": "2",
+      "imgUrl": "//live.staticflickr.com/5836/23784821361_5d89132ebc_w.jpg",
+      "title":  "Peace and Joy -  EXPLORED",
+      "author": "by Sharon (&Wayne)",
+      "likeNum": "215",
+      "commentNum": "42"
+    },
+    {
+      "ID": "3",
+      "imgUrl": "//live.staticflickr.com/697/23284835829_f1767f38e3_w.jpg",
+      "title": "Visions of Sugar Plums",
+      "author": "by Sharon (&Wayne)",
+      "likeNum": "51",
+      "commentNum": "28"
+    }
+  ]
+}
