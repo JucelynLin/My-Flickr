@@ -21,7 +21,7 @@
       "commentNum": "32",
       "photoNum": "4",
       "viewNum": "3",
-      "photos": "json1.json"
+      "photos": "1"
     },
     {
       "ID": "2",
@@ -32,7 +32,7 @@
       "commentNum": "34",
       "photoNum": "4",
       "viewNum": "3",
-      "photos": "json2.json"
+      "photos": "2"
     },
     {
       "ID": "3",
@@ -43,7 +43,7 @@
       "commentNum": "45",
       "photoNum": "4",
       "viewNum": "3",
-      "photos": "json3.json"
+      "photos": "3"
     },
     {
       "ID": "4",
@@ -54,7 +54,7 @@
       "commentNum": "31",
       "photoNum": "4",
       "viewNum": "3",
-      "photos": "json4.json"
+      "photos": "4"
     },
     {
       "ID": "5",
@@ -65,7 +65,7 @@
       "commentNum": "36",
       "photoNum": "4",
       "viewNum": "3",
-      "photos": "json5.json"
+      "photos": "5"
     }
   ]
 }
