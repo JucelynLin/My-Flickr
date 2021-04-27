@@ -3,7 +3,6 @@ img {
   height: auto;
 }
 
-
 .nav1{
 	background-color:#202023;
 	height:50px; 
@@ -62,15 +61,10 @@ header .container{
 aside{
 	border-bottom: 1px solid #000;
 }
-aside .nav-item .active{
+aside .nav-item{
 	border-bottom: 3px solid #0090DC;
 }
 
-/*section .footer{
-	min-height: 1000px;
-	display: black;
-}
-*/
 footer{
 	height: 100px;
 	background-color: black;
@@ -109,18 +103,18 @@ footer{
 	padding-right: 20px;
 }
 
-.img1{
+/* /* .img1{
 	/* width: 250px;
 	height: 270px; */
-	background-position:right bottom;
+	/* background-position:right bottom;
 	background-size: cover;
 	background-image: url(../images/pexels-adrianna-calvo-57627.jpg);
 	margin-right: 2px;
 	margin-top: 30px;
 	padding: 0;
 
-}
-.img2{
+} */ 
+/* .img2{
 	width: 250px;
 	height: 270px;
 	background-position:right bottom;
@@ -129,8 +123,8 @@ footer{
 	margin-right: 2px;
 	margin-top: 30px;
 	padding: 0;
-}
-.img3{
+} */
+/* .img3{
 	width: 250px;
 	height: 270px;
 	background-position:right bottom;
@@ -139,8 +133,8 @@ footer{
 	margin-right: 2px;
 	margin-top: 30px;
 	padding: 0;
-}
-.img4{
+} */
+/* .img4{
 	width: 250px;
 	height: 270px;
 	background-position:right bottom;
@@ -149,8 +143,8 @@ footer{
 	margin-right: 2px;
 	margin-top: 30px;
 	padding: 0;
-}
-.img5{
+} */
+/* .img5{
 	width: 250px;
 	height: 270px;
 	background-position:right bottom;
@@ -159,4 +153,5 @@ footer{
 	margin-right: 2px;
 	margin-top: 30px;
 	padding: 0;
-}
+} */ 
+

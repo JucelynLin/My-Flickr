@@ -1,5 +1,6 @@
 $(function () {
-
+  
+  // album element template
   function createSingleAlbums (imgUrl, title, photoNum, viewNum)  {
     return `<div class="col-12 col-md-4 col-lg-3 mb-4">
     <div class="box1">
@@ -18,6 +19,10 @@ $(function () {
   </div>`;
   }
 
+  //get post put delete
+  // 127.0.0.1 local hostname
+  //live server -> localhostname+5500 port 
+  //url -> /json -> localhostname+port/json
   $.ajax({
     type: 'GET',
     url: 'json/main.json',
@@ -33,10 +38,11 @@ $(function () {
       $('#followingQuantity').text(user.following);
       $('#avatar').attr('src', user.authorImg);
 
-      //set image data
+      //set albums data
       const albumsElements = albums.map((album) => {
         return createSingleAlbums(album.imgUrl, album.title, album.photoNum, album.viewNum);
       }); 
+     
       $('#albumSection').append(albumsElements);
     },
     error(err) {
