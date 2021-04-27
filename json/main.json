@@ -3,10 +3,12 @@
     "imgUrl": "//live.staticflickr.com/7601/26782193291_d5eb93b0af_k.jpg",
     "name": "Home in the Woods" ,
     "info": "Mysterious World",
-    "pohotoNum": "301 photos",
+    "pohotoNum": "301",
     "videoNum": "0",
     "viewNum": "150 views",
-    "author": "By: Sharon (&Wayne)",
+    "author": "Sharon (&Wayne)",
+    "follower": "10M",
+    "following": "10",
     "authorImg": "//farm66.staticflickr.com/65535/buddyicons/68534577@N05_l.jpg"
   },
   "albums": [
@@ -17,6 +19,8 @@
       "author": "by Sharon (&Wayne)",
       "likeNum": "68",
       "commentNum": "32",
+      "photoNum": "4",
+      "viewNum": "3",
       "photos": "json1.json"
     },
     {
@@ -26,6 +30,8 @@
       "author": "by Sharon (&Wayne)",
       "likeNum": "60",
       "commentNum": "34",
+      "photoNum": "4",
+      "viewNum": "3",
       "photos": "json2.json"
     },
     {
@@ -35,6 +41,8 @@
       "author": "by Sharon (&Wayne)",
       "likeNum": "80",
       "commentNum": "45",
+      "photoNum": "4",
+      "viewNum": "3",
       "photos": "json3.json"
     },
     {
@@ -44,6 +52,8 @@
       "author": "by Sharon (&Wayne)",
       "likeNum": "69",
       "commentNum": "31",
+      "photoNum": "4",
+      "viewNum": "3",
       "photos": "json4.json"
     },
     {
@@ -53,6 +63,8 @@
       "author": "by Sharon (&Wayne)",
       "likeNum": "62",
       "commentNum": "36",
+      "photoNum": "4",
+      "viewNum": "3",
       "photos": "json5.json"
     }
   ]

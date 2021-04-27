@@ -1,3 +1,9 @@
+img {
+  width: 100%;
+  height: auto;
+}
+
+
 .nav1{
 	background-color:#202023;
 	height:50px; 
@@ -38,7 +44,7 @@
 
 header{
 	height: 250px;
-	background-image: url(../images/pexels-svetozar-milashevich-1490908.jpg);
+	/* background-image: url(https://farm66.staticflickr.com/65535/buddyicons/68534577@N05_l.jpg); */
 	background-size: cover;
 	background-position: 0px -200px;
 }
@@ -104,8 +110,8 @@ footer{
 }
 
 .img1{
-	width: 250px;
-	height: 270px;
+	/* width: 250px;
+	height: 270px; */
 	background-position:right bottom;
 	background-size: cover;
 	background-image: url(../images/pexels-adrianna-calvo-57627.jpg);
